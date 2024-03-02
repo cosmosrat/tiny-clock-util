@@ -1,0 +1,39 @@
+{
+  "name": "tiny-clock-util",
+  "version": "1.0.0",
+  "description": "An extended Clock with additional functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cosmosrat/tiny-clock-util.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "clock",
+    "interface",
+    "extension",
+    "sse",
+    "seconds",
+    "second",
+    "typescript"
+  ],
+  "author": "cosmosrat",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.11",
+    "@types/sinon": "^2.3.2",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.7",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "clock": "^1.0.2"
+  }
+}
